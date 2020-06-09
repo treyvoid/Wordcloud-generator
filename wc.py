@@ -1,6 +1,6 @@
 # %%
 """
-# Final Project - Word Cloud
+# Project - Word Cloud
 """
 
 # %%
@@ -38,10 +38,6 @@ import sys
 
 # %%
 """
-Whew! That was a lot. All of the installs and imports for your word cloud script and uploader widget have been completed. 
-<br><br>
-**IMPORTANT!** If this was your first time running the above cell containing the installs and imports, you will need save this notebook now. Then under the File menu above,  select Close and Halt. When the notebook has completely shut down, reopen it. This is the only way the necessary changes will take affect.
-<br><br>
 To upload your text file, run the following cell that contains all the code for a custom uploader widget. Once you run this cell, a "Browse" button should appear below it. Click this button and navigate the window to locate your saved text file.
 """
 
@@ -86,8 +82,6 @@ def calculate_frequencies(file_contents):
     "their", "what", "which", "who", "whom", "this", "that", "am", "are", "was", "were", "be", "been", "being", \
     "have", "has", "had", "do", "does", "did", "but", "at", "by", "with", "from", "here", "when", "where", "how", \
     "all", "any", "both", "each", "few", "more", "some", "such", "no", "nor", "too", "very", "can", "will", "just"]
-    
-    # LEARNER CODE START HERE
     
     #wordcloud
     frequencies = {}
